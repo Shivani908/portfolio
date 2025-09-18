@@ -53,3 +53,45 @@ button{
     transition: 0.2s ease;
     cursor: pointer;
 }
+
+.one{
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.one h5{
+    margin-top: 80px;
+    font-weight: bold;
+}
+.one h2{
+    margin-top: 8px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ec8b2a;
+}
+.one h4{
+    margin-top: 5px;
+    font-size: medium;
+}
+.one p{
+    margin-top: 10px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+.two{
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+}
+
+.two img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
