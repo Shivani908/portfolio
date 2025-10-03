@@ -55,6 +55,13 @@ button{
     cursor: pointer;
 }
 
+.Introduction{
+display: flex; 
+flex-direction: row;
+justify-content: center;
+}
+
+
 .one{
     height: 400px;
     width: 400px;
@@ -95,4 +102,45 @@ button{
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Aone{
+    height: 450px;
+    width: 500px;
+}
+
+.Aone img{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.Atwo{
+    height: 450px;
+    width: 500px;
+}
+
+.Atwo h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-left: 80px;
+    color:#ec8b2a;
+}
+
+.Atwo p{
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    color: #fff;
 }
