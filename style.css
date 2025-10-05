@@ -61,7 +61,6 @@ flex-direction: row;
 justify-content: center;
 }
 
-
 .one{
     height: 400px;
     width: 400px;
@@ -144,3 +143,34 @@ justify-content: center;
     line-height: 1.5;
     color: #fff;
 }
+
+.services{
+text-align: center;
+color:#ec8b2a;
+}
+
+#service{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Sone{
+   width: 350px;
+   height: 500px;
+   text-align: center;
+   border: 2px solid white;
+   border-radius: 20px;
+}
+
+.Sone i{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+
